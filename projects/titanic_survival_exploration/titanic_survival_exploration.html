@@ -1712,7 +1712,13 @@ Make sure to keep track of the various features and conditions you tried before 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer</strong>: <em>82.26.</em></p>
+<p><strong>Answer</strong>: *Step1. check all the female passenger data from diffrent Pclass and found Pclss 3 female passenger aged between 20 and 50 have more nonsurvived than surved. So that part of people to unsurvived. Step2. check all the male passenger data with consideration of age, class, and found male passenger whose age higher than 10 have more nonsurvivor than survivior, so set that part of people's prediction result to unsurvived. And also found male aged less 10 but pclass is 3 also have more nonsurviviors, so set this part of people's prediction to nonsurvivor.</p>
+<p>Features I looked at are age, sex, Pclass.
+Yes features like sex or age has more informative than others.</p>
+<p>I checked sex first, than sex + age, than sex+age+Pclass.
+I didn't try other variables.
+My working hyphoesis is that, sex, age, class are the good order to subgroup the whole data.
+The predictions have an accuracy of 81.26.*</p>
 
 </div>
 </div>
